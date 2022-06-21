@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+}
+
+.btnLogin{
+    margin-left: 1cm;
+}
+
+.header-image{
+    background-image: url("source/flying-plane-blue-sky-banner-background-tropical-leaves-toy-hand-flies-to-travel-summer-vacation-relaxation-tours-222613249.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width : 100vw;
+    height : 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo-header{
+    display: flex;
+    background-image: url("source/Tiketnesia.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1cm;
+    width: 250px;
+    height: 250px;
+    
+}
+
+.eventImg{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar.navbar-expand-lg.navbar-light .container-fluid .collapse.navbar-collapse .btn.btn-primary{
+    background-color: #e01313;
+    color: whitesmoke;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    justify-content: center;
+    border: none;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+body{
+    background-color: #CEEDFF;
+}
+

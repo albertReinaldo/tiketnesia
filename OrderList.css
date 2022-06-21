@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+}
+
+.btnLogin{
+    margin-left: 1cm;
+}
+
+/*btn btn-primary mt-2
+.box-2 .box-inner-2 .btn.btn-primary{
+    
+}*/
+
+/*btn btn-outline-success*/
+
+.navbar.navbar-expand-lg.navbar-light .container-fluid .collapse.navbar-collapse .btn.btn-primary{
+    background-color: #e01313;
+    color: whitesmoke;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    justify-content: center;
+    border: none;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.row .col-sm-4 .card .card-body .condition{
+    color:green;
+}
+
+.row .col-sm-4 .card .card-body .conditionPast{
+    color:red;
+}
+
+body{
+    background-color: #CEEDFF;
+}

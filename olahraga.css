@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+}
+
+.btnLogin{
+    margin-left: 1cm;
+}
+
+body{
+    background-color: #CEEDFF;
+}
+
+.navbar.navbar-expand-lg.navbar-light .container-fluid .collapse.navbar-collapse .btn.btn-primary{
+    background-color: #e01313;
+    color: whitesmoke;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    justify-content: center;
+    border: none;
+    padding: 10px;
+    margin-left: 15px;
+}
